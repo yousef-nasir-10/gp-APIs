@@ -18,7 +18,7 @@ require('./pdfExtraction')
 // midleware 
 app.use(express.json())
 app.use(cors({
-    origin: ["https://gradution-project-vite.vercel.app"],
+    origin: ["https://gradution-project-vite.vercel.app", "https://gp.alsuwaileh-yousef.com"],
    
     
 

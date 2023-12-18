@@ -17,7 +17,7 @@ const ProjectSchema = new mongoose.Schema({
         {type:String, ref:"Users"}
     ],
     introduction: {type:String, default: "no intoduction added!"},
-    abstract: {type:String, default: "no intoduction added!"},
+    abstract: {type:String, default: "no abstract added!"},
     
     tools: {type: Array},
     superVisors: {type: Array},
